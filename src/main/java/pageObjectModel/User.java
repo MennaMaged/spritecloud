@@ -9,7 +9,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class Login {
+public class User {
 	
 	private String getLoginServiceName = "v2/user/login";
 
