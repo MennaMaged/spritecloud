@@ -15,7 +15,7 @@ https://petstore.swagger.io/
 # How to run the test in a CI/CD pipeline
 - Install Jenkins: https://coralogix.com/blog/how-to-install-and-configure-jenkins-on-the-mac-os/
 - Configure Maven project on Jenkins: https://www.toolsqa.com/jenkins/jenkins-maven/
-- Build Projectto execute all test cases
+- Build Project to execute all test cases
 
 # Has a link to the results in Calliope.pro
 # What you used to select the scenarios, what was your approach?
