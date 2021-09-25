@@ -1,14 +1,13 @@
 # SpriteCloud API Assignment
-This project is to automate API cases of pet store
-https://petstore.swagger.io/ 
+A demo project for automating tests of Pet Store API endpoints
 
 # Given:
-https://petstore.swagger.io/
-Required scripting language: Java
-Required testing tool: RestAssured
-CI platform: Jenkins
+- https://petstore.swagger.io/
+- Required scripting language: Java
+- Required testing tool: RestAssured
+- CI platform: Jenkins
 
-# Scenarios to automate:
+# Modules under tests:
 - User Section:
   - Create User
   - Login scenarios:
@@ -23,7 +22,7 @@ CI platform: Jenkins
   - Add new pet
   - Add existing pet
 
-# How to run the tests locally
+# Local execution
 - Install eclipse
 - Install JDK 1.8 and Setup JAVA_HOME
 - Install MAVEN and Setup M2_HOME
@@ -32,21 +31,25 @@ CI platform: Jenkins
 - Right click >> Maven >> Update Project.. >> check force update 
 - Run as Maven Testto execute all TCs 
 
-# How to run the test in a CI/CD pipeline
+# Remote execution using CI/CD pipeline
 - Install Jenkins: https://coralogix.com/blog/how-to-install-and-configure-jenkins-on-the-mac-os/
 - Configure Maven project on Jenkins: https://www.toolsqa.com/jenkins/jenkins-maven/
 - Build Project to execute all test cases
 
-# Approach of selecting scenarios:
-It is based on Exploratory Testing (Experience based testing technique)
+# Selection Approach:
+Based on Exploratory Testing (Experience based testing technique)
 For more details: https://www.globalapptesting.com/blog/what-is-exploratory-testing
 
-# Why are they the most important
+# Importance
 They cover main functions of the website, for example no actions will be done without creating user or login, 
 plus invalid login will verify the security breach which is very important and adding new pet is also main feature in the app.
 
-# Link of results in Calliope.pro:
-# What could be the next steps to your project
+# Future Work
+- Add cucumber framework
+- Check different reporting libraries
+- Use External Data Reader
+- Add dependencies on Maven repository (seperate framework layer)
 
+# Link of results in Calliope.pro:
 
 
