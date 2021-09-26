@@ -27,7 +27,7 @@ A demo project for automating tests of Pet Store API endpoints
 - Install JDK 1.8 and Setup JAVA_HOME
 - Install MAVEN and Setup M2_HOME
 - Create new project by cloning this repo
-- Run as Maven Cleann Install to install all dependencies
+- Run as Maven Clean Install to install all dependencies
 - Right click >> Maven >> Update Project.. >> check force update 
 - Run as Maven Testto execute all TCs 
 
