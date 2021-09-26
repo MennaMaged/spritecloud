@@ -5,7 +5,9 @@
     <classes>
       <class name="apiTest.LoginTest">
         <methods>
-          <include name="validLogin"/>
+          <include name="beforeClass"/>
+          <include name="loginWithDeletedUser"/>
+          <include name="loginWithEmptyUsernameAndPassword"/>
         </methods>
       </class> <!-- apiTest.LoginTest -->
     </classes>
