@@ -29,7 +29,7 @@ A demo project for automating tests of Pet Store API endpoints
 - Create new project by cloning this repo
 - Run as Maven Clean Install to install all dependencies
 - Right click >> Maven >> Update Project.. >> check force update 
-- Run as Maven Testto execute all TCs 
+- Run as Maven Test to execute all TCs 
 
 # Remote execution using CI/CD pipeline
 - Install Jenkins: https://coralogix.com/blog/how-to-install-and-configure-jenkins-on-the-mac-os/
@@ -47,9 +47,5 @@ plus invalid login will verify the security breach which is very important and a
 # Future Work
 - Add cucumber framework
 - Check different reporting libraries
-- Use External Data Reader
+- Use External Data Reader instead of static data
 - Add dependencies on Maven repository (seperate framework layer)
-
-# Link of results in Calliope.pro:
-
-
