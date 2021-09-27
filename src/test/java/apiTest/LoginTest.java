@@ -13,21 +13,21 @@ public class LoginTest {
     
     @Test(priority = 1)
     public void validLogin() {
-	System.out.println("First TC - login with valid username and password");
+	System.out.println("login with valid username and password");
 	Response response = api.login("menna", "menna");
 	Assert.assertEquals(response.getStatusCode(),200);
     }
     
     @Test(priority = 2)
     public void loginWithEmptyUsernameAndPassword() {
-	System.out.println("Second TC - login with empty username and password");
+	System.out.println("Login with empty username and password");
 	Response response = api.login("","");
 	Assert.assertEquals(response.getStatusCode(),400);
     }
     
     @Test(priority = 3)
     public void loginWithDeletedUser() {
-	System.out.println("Third TC - login with deleted user");
+	System.out.println("Login with deleted user");
 	// deletedUser is created and deleted with delete user endpoint
 	Response response = api.login("deletedUser","deletedUser");
 	Assert.assertEquals(response.getStatusCode(),400);
