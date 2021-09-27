@@ -1,3 +1,4 @@
+![](SpriteCloud.png) <br />
 # SpriteCloud API Assignment
 A demo project for automating tests of Pet Store API endpoints
 
