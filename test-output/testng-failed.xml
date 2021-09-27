@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiTest.LoginTest">
+      <class name="apiTest.PetTest">
         <methods>
+          <include name="placeOrder"/>
           <include name="beforeClass"/>
-          <include name="loginWithDeletedUser"/>
-          <include name="loginWithEmptyUsernameAndPassword"/>
+          <include name="placeOrderWithExistingPet"/>
         </methods>
-      </class> <!-- apiTest.LoginTest -->
+      </class> <!-- apiTest.PetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
