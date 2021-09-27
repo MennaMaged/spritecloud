@@ -34,11 +34,10 @@ A demo project for automating tests of Pet Store API endpoints
 # Remote execution using CI/CD pipeline
 - Install Jenkins: https://coralogix.com/blog/how-to-install-and-configure-jenkins-on-the-mac-os/
 - Configure Maven project on Jenkins: https://www.toolsqa.com/jenkins/jenkins-maven/
-- Build Project to execute all test cases
+- Build project to execute all test cases
 
 # Selection Approach:
-Based on Exploratory Testing (Experience based testing technique)
-For more details: https://www.globalapptesting.com/blog/what-is-exploratory-testing
+Based on Exploratory Testing (Experience based testing technique), for more details: https://www.globalapptesting.com/blog/what-is-exploratory-testing
 
 # Importance
 They cover main functions of the website, for example no actions will be done without creating user or login, 
@@ -47,5 +46,5 @@ plus invalid login will verify the security breach which is very important and a
 # Future Work
 - Add cucumber framework
 - Check different reporting libraries
-- Use External Data Reader instead of static data
+- Use External data reader instead of static data
 - Add dependencies on Maven repository (seperate framework layer)
